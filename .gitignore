@@ -10,3 +10,16 @@ logs/
 venv/
 __pycache__/
 *.pyc
+
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
