@@ -3,24 +3,13 @@ target/
 dbt_packages/
 logs/
 
-# macOS
-.DS_Store
-
-# python
-venv/
-__pycache__/
-*.pyc
-
-# dbt artifacts
-target/
-dbt_packages/
-logs/
-
-# python
-venv/
-__pycache__/
-*.pyc
-
-# macOS
-.DS_Store
+# duckdb local database files
 *.duckdb
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
